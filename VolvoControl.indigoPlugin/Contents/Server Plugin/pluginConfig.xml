@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<PluginConfig>
+	<Field type="textfield" id="username" >
+		<Label>VolvoOnCall Email:</Label>
+	</Field>
+	<Field type="textfield" id="password" secure="true">
+		<Label>VolvoOnCall Password:</Label>
+	</Field>
+	<Field id="showDebugInfo" type="checkbox">
+		<Label>Enable debugging:</Label>
+	</Field>
+</PluginConfig>
