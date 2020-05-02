@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <Actions>
-	<Action id="wake_up" deviceFilter="self">
+	<Action id="start_heater" deviceFilter="self">
+		<Name>Start heater</Name>
+		<CallbackMethod>vehicleCommand</CallbackMethod>
+	</Action>
+
+	<Action id="stop_heater" deviceFilter="self">
+		<Name>Stop heater</Name>
+		<CallbackMethod>vehicleCommand</CallbackMethod>
+	</Action>
+<!--	<Action id="wake_up" deviceFilter="self">
 		<Name>Wake Car</Name>
 		<CallbackMethod>vehicleCommand</CallbackMethod>
 	</Action>
@@ -195,9 +204,9 @@
 	<Action id="gui_settings" deviceFilter="self">
 		<Name>Get GUI Settings</Name>
 		<CallbackMethod>vehicleStatus</CallbackMethod>
-	</Action>
+	</Action>-->
 	<Action id="sep3"/>
-	<Action id="doRefresh" deviceFilter="self">
+	<Action id="update" deviceFilter="self">
 		<Name>Refresh all vehicle states</Name>
 		<CallbackMethod>vehicleStatus</CallbackMethod>
 	</Action>
